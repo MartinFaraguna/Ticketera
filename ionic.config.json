@@ -1,0 +1,7 @@
+{
+  "name": "ticketera-activocc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
