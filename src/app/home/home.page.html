@@ -1,22 +1,38 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- burger menu -->
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+<ion-menu contentId="main-content" side="end">
+  <ion-header>
+    <ion-toolbar class="menu-header">
+      <ion-title class="ion-text-center ion-text-uppercase">Menu</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-content class="ion-padding">
+    <ion-grid >
+      <ion-row >
+        <ion-item  > Hola! </ion-item>
+      </ion-row>
+      <ion-row><ion-item>hola x2 </ion-item></ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-menu>
 
-  <h1>PRIMERA PRUEBA</h1>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+<!-- Pagina Principal -->
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar class="header-color">
+      <ion-img
+        src="../../assets/images/LOGO NEGATIVO.png"
+        alt="Logo ActivoCC"
+        class="Logo"
+        slot="start"
+      ></ion-img>
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="title">Sistemas ActivoCC</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    Tap the button in the toolbar to open the menu.
+  </ion-content>
+</div>

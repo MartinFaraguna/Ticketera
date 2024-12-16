@@ -1,27 +1,23 @@
-#container {
-  text-align: center;
+// ion-header ion-toolbar{
+//   background-color: var(--ion-color-dark-orange);
+// }
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.header-color {
+  --background: linear-gradient(to right, #F37335, #FDC830);
+  --color: #000;
+  --min-height: 8vh;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.Logo {
+  width: 8vh;
+  margin: 2vh;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.title {
+  font-size: 2.5vh
 }
 
-#container a {
-  text-decoration: none;
+.menu-header {
+  --background: var(--ion-color-orange);
+  --color: #000
 }
