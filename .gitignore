@@ -69,5 +69,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# mios
-src/credentials.json
+src/app/services/credentials.json
